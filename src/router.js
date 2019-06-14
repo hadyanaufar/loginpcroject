@@ -2,8 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import LoginComponent from "./views/login.vue"
 import SecureComponent from "./views/secure.vue"
-import Registration from "./views/registration.vue"
-import VeeValidate from 'vee-validate';
+import Registration from "./views/register.vue"
+// import VeeValidate from 'vee-validate';
 
 Vue.use(Router)
 // Vue.use(VeeValidate)
