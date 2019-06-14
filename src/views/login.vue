@@ -4,6 +4,7 @@
         <input type="text" name="username" v-model="input.username" placeholder="Username" />
         <input type="password" name="password" v-model="input.password" placeholder="Password" />
         <button type="button" v-on:click="login()">Login</button>
+        <button type="button" v-on:click="register()">Register</button>
     </div>
 </template>
 
@@ -31,6 +32,9 @@ import { Script } from 'vm';
                 } else {
                     console.log("A username and password must be present")
                 }
+            },
+            register() {
+                this.$router.replace({ name: "registration" });
             }
         }
     }

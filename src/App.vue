@@ -39,13 +39,13 @@ export default {
   body {
     background-color: #F0F0F0;
   }
-  hn1 {
+  H1 {
     padding: 0;
     margin-top: 0;
   }
   #app {
     width: 1024px;
-    margin: auto;
+    margin: auto
   }
 </style>
 
